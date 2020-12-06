@@ -3,7 +3,7 @@ import Intro from "../intro/intro";
 import NavBar from "../NavBar/NavigationBar";
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="about">
       <NavBar />
@@ -72,7 +72,7 @@ const Hero = () => {
           </div>
         </div>
         <span>
-          <a href="#resume">
+          <a href="#about">
             {" "}
             <i className="scrollIcon fas fa-arrow-down fa-2x "></i>
           </a>
