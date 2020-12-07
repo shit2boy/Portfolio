@@ -1,0 +1,18 @@
+.contactForm {
+  width: 40%;
+  padding: 25px;
+  text-align: center;
+}
+textarea {
+  width: 100%;
+  background: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: none;
+}
+textarea:focus {
+  outline: none;
+}

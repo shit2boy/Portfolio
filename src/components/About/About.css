@@ -7,3 +7,23 @@
   border-left: 4px saddlebrown solid;
   padding: 5px;
 }
+.contactTouch {
+  display: flex;
+  margin: auto;
+  padding: 20px 0px;
+}
+.contactTouch Button {
+  margin: 5px;
+}
+.contactCard {
+  background-color: #191925;
+  padding: 12px;
+  margin: 15px;
+  margin-left: 0px;
+  min-width: 200px;
+  width: auto;
+  border-left: 4px #020225 solid;
+  color: aliceblue;
+  cursor: cell;
+  border-radius: 5px;
+}
