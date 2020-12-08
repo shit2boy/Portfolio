@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../customButton/customButton";
+// import Button from "../customButton/customButton";
 import Intro from "../intro/intro";
 import NavBar from "../NavBar/NavigationBar";
 import "./Hero.css";

@@ -1,4 +1,4 @@
-import React, { Fragment, useRef } from "react";
+import React, { Fragment } from "react";
 // import NavigationBar from "./components/NavBar/NavigationBar";
 import "./App.css";
 import About from "./components/About/About";
