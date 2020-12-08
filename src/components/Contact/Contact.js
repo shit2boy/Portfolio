@@ -14,9 +14,18 @@ const Contact = () => {
     setContact({ ...contact, [e.target.name]: e.target.value });
   };
 
+  const onSubmit = (e) => {
+    e.peventDefault();
+    setContact({
+      fullname: "",
+      email: "",
+      message: "",
+    });
+  };
+
   return (
-    <div className="contactForm">
-      <form>
+    <div className="container d-flex justify-content-center">
+      <form className="contactForm" onSubmit={onSubmit}>
         <FormInput
           type="text"
           onChange={handleChange}
@@ -38,6 +47,7 @@ const Contact = () => {
           name="message"
           value={message}
           onChange={handleChange}
+          placeholder=" Messages"
           //   style={{ width: "100%" }}
           rows="5"
         ></textarea>
@@ -45,6 +55,18 @@ const Contact = () => {
           Submit
         </Button>
       </form>
+      <div className="contactTouch">
+        <div className="contactCard text-center">
+          <i className="fas fa-phone"></i>
+          <p>Phone</p>
+          <span>07037860938</span>
+        </div>
+        <div className=" contactCard text-center">
+          <i className="fas fa-envelope"></i>
+          <p>Email</p>
+          <span>writeshittu@gmail.com</span>
+        </div>
+      </div>
     </div>
   );
 };

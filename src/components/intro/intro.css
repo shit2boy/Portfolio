@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
+
 body {
   font-family: "VT323", monospace;
   /* background-color: #003b00; */
@@ -19,16 +20,23 @@ body {
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
-  color: #00ff41;
+  color: #8a2c2c;
 }
 
 #cursor {
-  border-left: 0.1em solid #00ff41;
+  border-left: 0.1em solid #8a2c2c;
   animation: blink 0.7s steps(1) infinite;
 }
 
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text {
+    width: 80%;
+    padding: 10px;
+    border: none;
   }
 }

@@ -1,14 +1,14 @@
 .about {
   /* width: 100vh; */
   height: 100vh;
-  background-image: url("../../images/mohammadreza-alidoost-jLYuPBgvOQI-unsplash\ \(1\).jpg");
+  background-image: url("../../images/portImage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* position: relative; */
 }
 .bio {
-  width: 80%;
+  width: 50%;
   margin: auto;
   padding: 15px;
   text-align: center;
@@ -36,6 +36,19 @@ ul li i {
   padding: 10px;
   cursor: pointer;
 }
-a {
+.bio Button > a {
   text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .bio {
+    width: 100%;
+    padding: 10px;
+  }
+  .bio-content {
+    font-size: medium;
+  }
+  .scrollIcon {
+    margin: 20px;
+  }
 }

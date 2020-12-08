@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../customButton/customButton";
 import Intro from "../intro/intro";
 import NavBar from "../NavBar/NavigationBar";
 import "./Hero.css";
@@ -10,23 +11,25 @@ const Hero = (props) => {
       <div className="text-center">
         <Intro
           heading={"Things I want to type:"}
-          dataText={[
-            "WELCOME  !, I'M SHITTU AKEEM ",
-            "Front End Developer",
-            "I AM AT YOUR SERVICE",
-          ]}
+          dataText={["HELLO!,I'M SHITTU AKEEM", "I AM AT YOUR SERVICE"]}
         />
         <div className="bio">
           <p className="bio-content">
-            Inventive Front-End Developer adept in web development. Effectively
-            combines a logical and analytical approach to solving complex
-            problems with the proven capacity to transition ideas from the
-            creative concept to practical implementation. Able to effectively
-            self- manage during independent projects, as well as collaborate in
-            a team setting. keen to apply my skills as well as acquire more
-            skills in challenging environment that gives room for
-            self-development, recognizes and rewards hardworking.
+            Front End Developer (React. Js). Just another curious random guy who
+            loves building random things
+            {/* for more infromation go ... */}
           </p>
+          {/* <div style={{ textAlign: "center" }}>
+            <Button type="button">
+              <a
+                href="mailto:writeshittu@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Let's Talk ...
+              </a>
+            </Button>
+          </div> */}
           <div>
             <ul>
               <li className=" linkedIn">
@@ -58,16 +61,16 @@ const Hero = (props) => {
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
-              <li className=" gmail">
+              {/* <li className=" gmail">
                 <a
-                  href="https://writeshittu@gmail.com"
+                  href="mailto:writeshittu@gmail.com"
                   rel="noreferrer"
                   target="_blank"
                 >
                   {" "}
-                  <i class="fab fa-gmail"></i>
+                  <i class="fas fa-envelope"></i>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -1,8 +1,20 @@
-.contactForm {
-  width: 40%;
-  padding: 25px;
-  text-align: center;
+.contact {
+  background-color: black;
+  color: white;
 }
+.contactForm {
+  width: 60%;
+  padding: 25px;
+}
+.contactTouch {
+  display: flex;
+  margin: auto;
+  padding: 20px 0px;
+}
+.contactTouch Button {
+  margin: 5px;
+}
+
 textarea {
   width: 100%;
   background: none;
@@ -15,4 +27,14 @@ textarea {
 }
 textarea:focus {
   outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contactForm {
+    width: 100%;
+    /* padding: 10px; */
+  }
+  .contactTouch {
+    display: none;
+  }
 }

@@ -7,29 +7,29 @@ import Hero from "./components/Hero/Hero";
 import Resume from "./components/Resume/Resume";
 
 const App = () => {
-  const myRef = useRef();
+  // const myRef = useRef();
 
-  const scroll = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" });
-  };
+  // const scroll = (ref) => {
+  //   ref.current.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <Fragment>
       {/* <header>
         <NavigationBar />
       </header> */}
-      <section data-section="bio">
+      <section id="home" data-section="bio">
         <div>
-          <Hero myref={scroll} />
+          <Hero />
         </div>
       </section>
-      <section ref={myRef} data-section="about-me">
+      <section id="about" data-section="about-me">
         <About />
       </section>
-      <section ref={myRef} data-section="resume">
+      <section id="resume" data-section="resume">
         <Resume />
       </section>
-      <section ref={myRef} data-section="contact">
+      <section id="contact" data-section="contact">
         <Contact />
       </section>
     </Fragment>
