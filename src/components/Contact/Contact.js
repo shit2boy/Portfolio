@@ -14,8 +14,9 @@ const Contact = () => {
     setContact({ ...contact, [e.target.name]: e.target.value });
   };
 
-  const onSubmit = (e) => {
-    e.peventDefault();
+  const onSubmit = (event) => {
+    // e.peventDefault();
+    event.preventDefault();
     setContact({
       fullname: "",
       email: "",
@@ -51,9 +52,7 @@ const Contact = () => {
           //   style={{ width: "100%" }}
           rows="5"
         ></textarea>
-        <Button style={{ width: "100%" }} type="submit">
-          Submit
-        </Button>
+        <Button type="submit">Submit</Button>
       </form>
       <div className="contactTouch">
         <div className="contactCard text-center">
