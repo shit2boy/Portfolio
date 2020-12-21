@@ -8,7 +8,6 @@ const NavBar = () => {
   const toggleNav = () => {
     setShowNav(!showNav);
   };
-
   return (
     <nav className="navbar navbar-expand-sm">
       <button class="navbar-toggler" type="button" onClick={() => toggleNav()}>

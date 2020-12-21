@@ -14,7 +14,7 @@ const About = () => {
             <img className="SkewImage" width="100%" src={Image} alt="imwage" />
           </div>
         </div>
-        <div className="col-sm-2 col-lg">
+        <div className="col-sm-2 col-md-8 col-lg">
           <div className="p-2">
             <h4 className="title_border">About Me</h4>
             <p>
