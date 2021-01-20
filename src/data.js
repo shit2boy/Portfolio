@@ -5,8 +5,15 @@ import learningPlatform from "./images/learningPlatform.jpg";
 import Mymint from "./images/Mymint.jpg";
 import sabigifts from "./images/sabigifts.jpg";
 import patSignin from "./images/patSignin.jpg";
+import jumga from "./images/jumga.png";
 
 export const projects = [
+  {
+    name: "Jumga",
+    info: "Merchant-customer platform/ E-commerce ",
+    link: "https://businesshub-frontend.vercel.app/",
+    image: jumga,
+  },
   {
     name: "SabiGifts",
     info: "Event Planner/ E-commerce ",

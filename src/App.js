@@ -7,12 +7,6 @@ import Hero from "./components/Hero/Hero";
 import Resume from "./components/Resume/Resume";
 
 const App = () => {
-  // const myRef = useRef();
-
-  // const scroll = (ref) => {
-  //   ref.current.scrollIntoView({ behavior: "smooth" });
-  // };
-
   return (
     <Fragment>
       {/* <header>

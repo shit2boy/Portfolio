@@ -17,7 +17,6 @@ const Resume = () => {
                   src={project.image}
                   alt="Avatar"
                   className="showcase_image"
-                  // style={{ width: "75px" }}
                 />
                 <div class="middle">
                   <div class="textPortfolio">
