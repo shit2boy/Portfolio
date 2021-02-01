@@ -12,6 +12,7 @@ const App = () => {
       {/* <header>
         <NavigationBar />
       </header> */}
+      <div className="background"></div>
       <section id="home" data-section="bio">
         <div>
           <Hero />

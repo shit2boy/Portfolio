@@ -15,7 +15,7 @@ const About = () => {
           </div>
         </div>
         <div className="col-sm-2 col-md-8 col-lg">
-          <div className="p-2">
+          <div className="p-2 text-white">
             <h4 className="title_border">About Me</h4>
             <p>
               Inventive Front-End Developer adept in web development.

@@ -52,7 +52,12 @@ const Contact = () => {
           //   style={{ width: "100%" }}
           rows="5"
         ></textarea>
-        <Button type="submit">Submit</Button>
+        <div>
+          {" "}
+          <Button type="submit" style={{ width: "100%" }}>
+            Submit
+          </Button>
+        </div>
       </form>
       <div className="contactTouch">
         <div className="contactCard text-center">
