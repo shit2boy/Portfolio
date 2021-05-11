@@ -6,6 +6,7 @@ import Mymint from "./images/Mymint.jpg";
 import sabigifts from "./images/sabigifts.jpg";
 import patSignin from "./images/patSignin.jpg";
 import jumga from "./images/jumga.png";
+import gmart from "./images/gmart.jpg";
 
 export const projects = [
   {
@@ -19,6 +20,12 @@ export const projects = [
     info: "Event Planner/ E-commerce ",
     link: "https://sabigift.netlify.app/",
     image: sabigifts,
+  },
+  {
+    name: "GmartPay",
+    info: "Crypto trading platform ",
+    link: "https://gmartpay.vercel.app/",
+    image: gmart,
   },
   {
     name: "Learning Platform",
