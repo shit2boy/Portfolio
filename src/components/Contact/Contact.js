@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import GlassmorphismContact from "../Glassmorphism/GlassmorphismContact";
 import Button from "../customButton/customButton";
-import FormInput from "../customButton/Form-Input";
 import "./Contact.css";
 import FormWithTransition from "../customButton/FormWithTransition";
 
