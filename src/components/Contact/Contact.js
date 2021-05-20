@@ -55,7 +55,7 @@ const Contact = () => {
             //   style={{ width: "100%" }}
             rows="5"
           ></textarea>
-          <div>
+          <div className="mt-3">
             {" "}
             <Button type="submit" style={{ width: "100%" }}>
               Submit
