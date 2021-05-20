@@ -24,7 +24,11 @@ const App = () => {
       <section id="resume" data-section="resume">
         <Resume />
       </section>
-      <section id="contact" data-section="contact">
+      <section
+        id="contact"
+        data-section="contact"
+        style={{ marginBottom: "20px" }}
+      >
         <Contact />
       </section>
     </Fragment>

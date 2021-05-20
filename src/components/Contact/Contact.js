@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import GlassmorphismContact from "../Glassmorphism/GlassmorphismContact";
 import Button from "../customButton/customButton";
 import FormInput from "../customButton/Form-Input";
 import "./Contact.css";
+import FormWithTransition from "../customButton/FormWithTransition";
 
 const Contact = () => {
   const [contact, setContact] = useState({
@@ -26,39 +28,44 @@ const Contact = () => {
 
   return (
     <div className="container d-flex justify-content-center">
-      <form className="contactForm" onSubmit={onSubmit}>
-        <FormInput
-          type="text"
-          onChange={handleChange}
-          name="fullname"
-          value={fullname}
-          required
-          placeholder="Enter Fullname"
-        />
-        <FormInput
-          type="email"
-          onChange={handleChange}
-          name="email"
-          value={email}
-          placeholder="Enter email"
-          required
-        />
-        <textarea
-          class="group"
-          name="message"
-          value={message}
-          onChange={handleChange}
-          placeholder=" Messages"
-          //   style={{ width: "100%" }}
-          rows="5"
-        ></textarea>
-        <div>
-          {" "}
-          <Button type="submit" style={{ width: "100%" }}>
-            Submit
-          </Button>
-        </div>
-      </form>
+      {/* <GlassmorphismContact/> */}
+      <div className="contactForm">
+        <form className="contact-container " onSubmit={onSubmit}>
+          <FormWithTransition
+            type="text"
+            onChange={handleChange}
+            name="fullname"
+            value={fullname}
+            required
+            label="Enter Fullname"
+          />
+
+          <FormWithTransition
+            type="email"
+            onChange={handleChange}
+            name="email"
+            value={email}
+            label="Enter email"
+            required
+          />
+          <textarea
+            class="group"
+            name="message"
+            value={message}
+            onChange={handleChange}
+            placeholder=" Messages"
+            //   style={{ width: "100%" }}
+            rows="5"
+          ></textarea>
+          <div>
+            {" "}
+            <Button type="submit" style={{ width: "100%" }}>
+              Submit
+            </Button>
+          </div>
+        </form>
+      </div>
+
       <div className="contactTouch">
         <div className="contactCard text-center">
           <i className="fas fa-phone"></i>
