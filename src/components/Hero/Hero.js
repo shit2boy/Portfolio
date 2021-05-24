@@ -13,7 +13,7 @@ const Hero = (props) => {
           heading={"Things I want to type:"}
           dataText={["HELLO!,I'M SHITTU AKEEM", "I AM AT YOUR SERVICE"]}
         />
-        <div className="bio">
+        <div className="bio slide_top">
           <p className="bio-content">
             Front End Developer (React. Js). Just another curious random guy who
             loves building random things

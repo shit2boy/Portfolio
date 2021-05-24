@@ -20,13 +20,13 @@ const NavBar = () => {
         }
       >
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li className="nav-item" style={{ i: 1 }}>
             <a className="nav-link" href="#home">
               {" "}
               Home
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ i: 2 }}>
             <a className="nav-link" href="#about">
               About
             </a>
@@ -36,12 +36,12 @@ const NavBar = () => {
               Resume
             </a>
           </li> */}
-          <li className="nav-item">
+          <li className="nav-item" style={{ i: 3 }}>
             <a className="nav-link" href="#resume">
               Projects
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" style={{ i: 4 }}>
             <a className="nav-link" href="#contact">
               Contact
             </a>

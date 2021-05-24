@@ -2,9 +2,12 @@
 
 .aext {
   font-family: "Dancing+Script";
-  margin-top: 3%;
-  padding: 25px;
+  /* margin-top: 3%; */
+  /* padding: 25px; */
+  display: grid;
+  place-items: center;
   font-size: medium;
+  height: 90vh;
   /* letter-spacing: normal; */
 }
 .SkewImage {
@@ -15,7 +18,10 @@
 }
 /* .containerImage {
 } */
-
+.slide_top {
+  animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.2s;
+}
 .title_border {
   border-left: 4px saddlebrown solid;
   padding: 5px;
@@ -42,5 +48,15 @@
 @media screen and (max-width: 600px) {
   .contactTouch {
     display: inline-block;
+  }
+}
+@keyframes slide_top {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
